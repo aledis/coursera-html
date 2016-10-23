@@ -3,7 +3,8 @@
 }
 
 body {
-	margin-left: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 .pbox {
@@ -13,7 +14,7 @@ body {
 	padding: 0px;
 }
 
-.inbox {
+section {
 	border: 4px solid black;
 	background: grey;
 	margin: 15px;
@@ -25,7 +26,7 @@ p {
 	padding: 10px;
 }
 
-.pheader {
+section > h2 {
 	border: solid black;
 	border-width: 0px 0px 4px 4px;
 	width: 40%;
@@ -33,6 +34,8 @@ p {
 	text-align: center;
 	float:right;
 	font-weight: 700;
+	margin: 0px;
+	font-size: 16px;
 }
 
 .redheader {
