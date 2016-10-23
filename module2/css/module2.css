@@ -39,16 +39,16 @@ section > h2 {
 	font-size: 16px;
 }
 
-.redheader {
+section:nth-child(3n) > h2 {
 	background-color: #bd4749;
 	color: white;
 }
 
-.pinkheader {
+section:nth-child(3n + 2) > h2 {
 	background-color: #d3989a;
 }
 
-.pukeheader {
+section:nth-child(3n + 1) > h2 {
 
 	background-color: #e3cf9e;
 }
