@@ -67,7 +67,7 @@ h1 {
 		width: 50%;
 	}
 
-	.pbottom {
+	.pbox:nth-last-child(1):nth-child(odd) {
 		width: 100%;
 		margin-right: 15px;
 	}
